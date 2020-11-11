@@ -1,5 +1,5 @@
-document.onload(()=>{
-  setInterval(()=>{
+document.onload = ()=>{
+  setTimeout(()=>{
     location.reload();
   },500);
-})
+}
